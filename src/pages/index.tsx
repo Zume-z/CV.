@@ -7,9 +7,10 @@ import { ArrowTopRightIcon } from '@radix-ui/react-icons'
 export default function Home() {
   return (
     <Layout>
-      <div className="w-full max-w-5xl px-4 ">
-        <div className="w-full py-8 sm:py-16 ">
-          <div className=" relative flex items-center  pb-6 sm:pb-5">
+      <div className="w-full max-w-5xl px-4">
+        <div className="w-full py-8 sm:py-16">
+          w
+          <div className=" relative flex items-center pb-6 sm:pb-5">
             <div className="space-y-3">
               <div className="flex items-baseline">
                 <p className=" w-full text-3xl font-bold text-black">Brendan Elton</p>
@@ -31,7 +32,6 @@ export default function Home() {
               </div>
             </div>
           </div>
-
           {cvData.occupation.map((item, i) => (
             <div key={i} className="min-h-[140px] w-full space-y-4 border-t border-black/10 pb-6 pt-1 sm:flex sm:pb-0">
               <div className=" w-full ">
