@@ -9,7 +9,6 @@ export default function Home() {
     <Layout>
       <div className="w-full max-w-5xl px-4">
         <div className="w-full py-8 sm:py-16">
-          w
           <div className=" relative flex items-center pb-6 sm:pb-5">
             <div className="space-y-3">
               <div className="flex items-baseline">
